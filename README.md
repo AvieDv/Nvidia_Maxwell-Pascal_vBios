@@ -12,7 +12,9 @@ GM200
 GM204
 GM206
 
-# Rendimiento
+# Rendimiento y funciones en macOS
+
+
 La potencia teórica de procesamiento de precisión simple de una GPU Maxwell en FLOPS se calcula como 2 (operaciones por instrucción FMA por núcleo CUDA por ciclo) × número de núcleos CUDA × velocidad de reloj del núcleo (en Hz).
 
 La potencia teórica de procesamiento de doble precisión de una GPU Maxwell es 1/32 del rendimiento de precisión simple (que se ha señalado como muy bajo en comparación con la generación anterior de Kepler).
