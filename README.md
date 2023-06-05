@@ -12,7 +12,7 @@ GM200
 GM204
 GM206
 
-# Rendimiento y funciones en macOS
+# Rendimiento y funciones en Windows 10-11
 
 Desafortunadamente, Apple nunca admitió estas tarjetas en las versiones más recientes de macOS. En caso de que planee usar una GPU de este tipo, deberá instalar los llamados controladores web de NVIDIA para obtener soporte para High Sierra.
 
@@ -28,14 +28,13 @@ La potencia teórica de procesamiento de doble precisión de una GPU Maxwell es 
 
 Las tarjetas Maxwell y Pascal no funcionarán con aceleración en MacOS más allá de High Sierra debido a la falta de compatibilidad con controladores, pero funcionarán perfectamente bien en Windows y Linux.
 
-Para obtener instrucciones de instalación del hardware, consulte el hilo de actualización de la tarjeta gráfica iMac 2009-2011 , ya que es el mismo procedimiento que para otras tarjetas MXM-B grandes.
-
-Todas las tarjetas MXM-B admitidas actualmente requieren el iMac de 27'' con disipador de calor de 3 tubos modificado (pulido) correctamente.
+Todas las tarjetas MXM-B admitidas actualmente requieren el iMac de 27'' con disipador de calor de 3 tubos modificado (pulido y modificado) correctamente.
 
 
 Todas las tarjetas Maxwell y Pascal requieren vbios flashing para funcionar en el iMac.
 En las tarjetas Maxwell, esto se puede hacer desdewindows o linux usando un nvflash parcheado.
-En las tarjetas Pascal, se requiere un programador de hardware para colocar el chip eeprom en la tarjeta para flashear a 1.8v. Puede usar un programador simple basado en ch341a con adaptador de voltaje y un flashrom parcheado en Linux o AsProgrammer / NeoProgrammer en Windows.
+En las tarjetas Pascal, se requiere un programador de hardware para colocar el chip eeprom en la tarjeta para flashear a 1.8v. 
+Puede usar un programador simple basado en ch341a con adaptador de voltaje y un flashrom parcheado en Linux o AsProgrammer / NeoProgrammer en Windows.
 
 Las tarjetas funcionarán en MacOS hasta High Sierra (usando los controladores web de Nvidia ) y son totalmente compatibles con Windows y Linux. El control de despertar, dormir y brillo funciona bien.
 
