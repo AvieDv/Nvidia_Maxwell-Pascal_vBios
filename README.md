@@ -42,6 +42,15 @@ Necesitará un Opencore/OCLP correctamente configuradopara habilitar la pantalla
 
 El control de brillo en Windows requiere un parche regedit después de instalar los controladores de Nvidia.
 
+Algunas tarjetas tienen más de un ROM para vBios disponible, generalmente con una versión overclockeada.
+Las versiones overclockeadas de Pascal son muy seguras, ya que "gpu boost" evita el sobrecalentamiento reduciendo los relojes y la potencia según sea necesario.
+
+* La tarjeta P3200/P4200 en iMac 12,2 necesita un truco de aislamiento de smbus para funcionar correctamente. Además, la mayoría de las tarjetas vienen sin el chip eeprom soldado a bordo (tiene que soldar uno o pedirle al vendedor que lo haga por usted).
+
+** HP Turing T1000 necesita un mod de retroiluminación de hardware para habilitar la retroiluminación y no hay controladores macOS para ello.
+
+Otras tarjetas de interés que deberían funcionar: HP Turing RTX 3000 y RTX 4000.
+
 
 ![71CoFDN88eL _AC_SY355_](https://github.com/AvieDv/Nvidia_Maxwell_vBios/assets/43917721/1d2bf947-cf86-4150-93c8-5fa216fdf575)
 
