@@ -12,6 +12,20 @@ GM200
 GM204
 GM206
 
+
+# Rendimiento
+
+Desafortunadamente, Apple nunca admitió estas tarjetas en las versiones más recientes de macOS. En caso de que planee usar una GPU de este tipo, deberá instalar los llamados controladores web de NVIDIA para obtener soporte para High Sierra.
+
+
+Por otro lado, estas GPU son perfectamente capaces de ejecutar Windows y probablemente alguna distribución de Linux con soporte completo para controladores.
+
+La potencia teórica de procesamiento de precisión simple de una GPU Maxwell en FLOPS se calcula como 2 (operaciones por instrucción FMA por núcleo CUDA por ciclo) × número de núcleos CUDA × velocidad de reloj del núcleo (en Hz).
+
+La potencia teórica de procesamiento de doble precisión de una GPU Maxwell es 1/32 del rendimiento de precisión simple (que se ha señalado como muy bajo en comparación con la generación anterior de Kepler).
+
+
+
 # Nvidia PASCAL MXM en macOS/Windows
 La arquitectura se introdujo por primera vez en abril de 2016 con el lanzamiento de Tesla P100 (GP100) el 5 de abril de 2016 y se usa principalmente en la serie GeForce 10, comenzando con GeForce GTX 1080 y GTX 1070 (ambas con GPU GP104), que fueron lanzados el 17 de mayo de 2016 y el 10 de junio de 2016 respectivamente. Pascal se fabricó utilizando el proceso FinFET de 16 nm de TSMC, y luego el proceso FinFET de Samsung de 14 nm.
 
@@ -28,17 +42,13 @@ GP107: esta GPU se usa en GeForce GTX 1050 Ti y GeForce GTX 1050. También se ut
 GP108: esta GPU se utiliza en GeForce GT 1010 y GeForce GT 1030.
 En el chip GP104, un SM consta de 128 ALU de precisión simple ("núcleos CUDA"), en el GP100 de 64 ALU de precisión simple. Debido a la diferente organización de los chips, como el número de ALU de doble precisión, el rendimiento teórico de doble precisión de la GP100 es la mitad del rendimiento teórico de precisión simple; la relación es 1/32 para el chip GP104.
 
-# Rendimiento y funciones en Windows 10-11
+Rendimiento  y funciones en Windows 10-11
 
-Desafortunadamente, Apple nunca admitió estas tarjetas en las versiones más recientes de macOS. En caso de que planee usar una GPU de este tipo, deberá instalar los llamados controladores web de NVIDIA para obtener soporte para High Sierra.
+La potencia de procesamiento de precisión simple teórica de una GPU Pascal en GFLOPS se calcula como 2 X (operaciones por instrucción FMA por núcleo CUDA por ciclo) × número de núcleos CUDA × velocidad de reloj del núcleo (en GHz).
 
+La potencia teórica de procesamiento de doble precisión de una GPU Pascal es la mitad del rendimiento de precisión simple en Nvidia GP100 y 1/32 de Nvidia GP102, GP104, GP106, GP107 y GP108.
 
-Por otro lado, estas GPU son perfectamente capaces de ejecutar Windows y probablemente alguna distribución de Linux con soporte completo para controladores.
-
-La potencia teórica de procesamiento de precisión simple de una GPU Maxwell en FLOPS se calcula como 2 (operaciones por instrucción FMA por núcleo CUDA por ciclo) × número de núcleos CUDA × velocidad de reloj del núcleo (en Hz).
-
-La potencia teórica de procesamiento de doble precisión de una GPU Maxwell es 1/32 del rendimiento de precisión simple (que se ha señalado como muy bajo en comparación con la generación anterior de Kepler).
-
+La potencia de procesamiento de precisión media teórica de una GPU Pascal es 2 veces mayor que el rendimiento de precisión simple en GP100 y 1/64 en GP104, GP106, GP107 y GP108
 
 # Para admitir tarjetas Maxwell y Pascal en el iMac 2009-2011.
 
