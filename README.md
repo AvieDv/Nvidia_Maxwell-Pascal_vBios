@@ -12,6 +12,8 @@ GM200
 GM204
 GM206
 
+# Nvidia PASCAL MXM en macOS/Windows
+La arquitectura se introdujo por primera vez en abril de 2016 con el lanzamiento de Tesla P100 (GP100) el 5 de abril de 2016 y se usa principalmente en la serie GeForce 10, comenzando con GeForce GTX 1080 y GTX 1070 (ambas con GPU GP104), que fueron lanzados el 17 de mayo de 2016 y el 10 de junio de 2016 respectivamente. Pascal se fabricó utilizando el proceso FinFET de 16 nm de TSMC, y luego el proceso FinFET de Samsung de 14 nm.
 # Rendimiento y funciones en Windows 10-11
 
 Desafortunadamente, Apple nunca admitió estas tarjetas en las versiones más recientes de macOS. En caso de que planee usar una GPU de este tipo, deberá instalar los llamados controladores web de NVIDIA para obtener soporte para High Sierra.
