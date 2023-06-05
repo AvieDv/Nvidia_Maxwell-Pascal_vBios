@@ -14,13 +14,34 @@ GM206
 
 # Rendimiento y funciones en macOS
 
+Desafortunadamente, Apple nunca admitió estas tarjetas en las versiones más recientes de macOS. En caso de que planee usar una GPU de este tipo, deberá instalar los llamados controladores web de NVIDIA para obtener soporte para High Sierra.
+
+
+Por otro lado, estas GPU son perfectamente capaces de ejecutar Windows y probablemente alguna distribución de Linux con soporte completo para controladores.
 
 La potencia teórica de procesamiento de precisión simple de una GPU Maxwell en FLOPS se calcula como 2 (operaciones por instrucción FMA por núcleo CUDA por ciclo) × número de núcleos CUDA × velocidad de reloj del núcleo (en Hz).
 
 La potencia teórica de procesamiento de doble precisión de una GPU Maxwell es 1/32 del rendimiento de precisión simple (que se ha señalado como muy bajo en comparación con la generación anterior de Kepler).
 
-Sucesor
-El sucesor de Maxwell tiene el nombre en clave de Pascal. La arquitectura Pascal cuenta con memoria unificada de mayor ancho de banda y NVLink.
+
+# Para admitir tarjetas Maxwell y Pascal en el iMac 2009-2011.
+
+Las tarjetas Maxwell y Pascal no funcionarán con aceleración en MacOS más allá de High Sierra debido a la falta de compatibilidad con controladores, pero funcionarán perfectamente bien en Windows y Linux.
+
+Para obtener instrucciones de instalación del hardware, consulte el hilo de actualización de la tarjeta gráfica iMac 2009-2011 , ya que es el mismo procedimiento que para otras tarjetas MXM-B grandes.
+
+Todas las tarjetas MXM-B admitidas actualmente requieren el iMac de 27'' con disipador de calor de 3 tubos modificado (pulido) correctamente.
+
+
+Todas las tarjetas Maxwell y Pascal requieren vbios flashing para funcionar en el iMac.
+En las tarjetas Maxwell, esto se puede hacer desdewindows o linux usando un nvflash parcheado.
+En las tarjetas Pascal, se requiere un programador de hardware para colocar el chip eeprom en la tarjeta para flashear a 1.8v. Puede usar un programador simple basado en ch341a con adaptador de voltaje y un flashrom parcheado en Linux o AsProgrammer / NeoProgrammer en Windows.
+
+Las tarjetas funcionarán en MacOS hasta High Sierra (usando los controladores web de Nvidia ) y son totalmente compatibles con Windows y Linux. El control de despertar, dormir y brillo funciona bien.
+
+Necesitará un Opencore/OCLP correctamente configuradopara habilitar la pantalla en el arranque, tener control de brillo en MacOS, tener un selector de arranque emulado y habilitar la salida de altavoces internos en UEFI Windows.
+
+El control de brillo en Windows requiere un parche regedit después de instalar los controladores de Nvidia.
 
 
 ![71CoFDN88eL _AC_SY355_](https://github.com/AvieDv/Nvidia_Maxwell_vBios/assets/43917721/1d2bf947-cf86-4150-93c8-5fa216fdf575)
