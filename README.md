@@ -14,6 +14,20 @@ GM206
 
 # Nvidia PASCAL MXM en macOS/Windows
 La arquitectura se introdujo por primera vez en abril de 2016 con el lanzamiento de Tesla P100 (GP100) el 5 de abril de 2016 y se usa principalmente en la serie GeForce 10, comenzando con GeForce GTX 1080 y GTX 1070 (ambas con GPU GP104), que fueron lanzados el 17 de mayo de 2016 y el 10 de junio de 2016 respectivamente. Pascal se fabricó utilizando el proceso FinFET de 16 nm de TSMC, y luego el proceso FinFET de Samsung de 14 nm.
+
+
+
+# Chips
+GP100: el acelerador de GPU Nvidia Tesla P100 está dirigido a aplicaciones GPGPU como FP64 de cómputo de doble precisión y capacitación de aprendizaje profundo que utiliza FP16. Utiliza memoria HBM2. 
+Quadro GP100 también utiliza la GPU GP100.
+GP102: esta GPU se utiliza en TITAN Xp, Titan X2 y GeForce GTX 1080 Ti. También se utiliza en Quadro P60002 y Tesla P40.2
+GP104: Esta GPU se utiliza en las GeForce GTX 1070, GTX 1070 Ti y GTX 1080. La GTX 1070 tiene 15/20 y la GTX 1070 Ti tiene habilitados 19/20 de sus SM. Ambos están conectados a la memoria GDDR5, mientras que la GTX 1080 es un chip completo y está conectado a la memoria GDDR5X. También se utiliza en Quadro P5000, Quadro P4000 y Tesla P4.
+GP106: esta GPU se utiliza en la GeForce GTX 1060 con memoria GDDR5/GDDR5X.
+También se utiliza en la Quadro P2000.
+GP107: esta GPU se usa en GeForce GTX 1050 Ti y GeForce GTX 1050. También se utiliza en Quadro P1000, Quadro P600, Quadro P620 y Quadro P400.
+GP108: esta GPU se utiliza en GeForce GT 1010 y GeForce GT 1030.
+En el chip GP104, un SM consta de 128 ALU de precisión simple ("núcleos CUDA"), en el GP100 de 64 ALU de precisión simple. Debido a la diferente organización de los chips, como el número de ALU de doble precisión, el rendimiento teórico de doble precisión de la GP100 es la mitad del rendimiento teórico de precisión simple; la relación es 1/32 para el chip GP104.
+
 # Rendimiento y funciones en Windows 10-11
 
 Desafortunadamente, Apple nunca admitió estas tarjetas en las versiones más recientes de macOS. En caso de que planee usar una GPU de este tipo, deberá instalar los llamados controladores web de NVIDIA para obtener soporte para High Sierra.
