@@ -1,1 +1,4 @@
-# Nvidia_Maxwell
+# Nvidia Maxwell  
+Maxwell es la arquitectura de próxima generación de NVIDIA para aplicaciones informáticas CUDA. Maxwell presenta un diseño completamente nuevo para Streaming Multiprocessor (SM) que mejora drásticamente la eficiencia energética. Las mejoras para controlar la partición lógica, el equilibrio de la carga de trabajo, la granularidad de activación del reloj, la programación basada en el compilador, la cantidad de instrucciones emitidas por ciclo de reloj y muchas otras mejoras permiten que Maxwell SM (también llamado SMM) supere con creces la eficiencia de Kepler SMX.
+
+Maxwell retiene y amplía el mismo modelo de programación CUDA que en las arquitecturas anteriores de NVIDIA, como Fermi y Kepler, y las aplicaciones que siguen las mejores prácticas para esas arquitecturas normalmente deberían ver aceleraciones en la arquitectura Maxwell sin ningún cambio de código.
