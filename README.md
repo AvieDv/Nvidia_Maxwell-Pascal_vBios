@@ -19,3 +19,7 @@ La potencia teórica de procesamiento de doble precisión de una GPU Maxwell es 
 
 Sucesor
 El sucesor de Maxwell tiene el nombre en clave de Pascal. La arquitectura Pascal cuenta con memoria unificada de mayor ancho de banda y NVLink.
+
+
+![71CoFDN88eL _AC_SY355_](https://github.com/AvieDv/Nvidia_Maxwell_vBios/assets/43917721/1d2bf947-cf86-4150-93c8-5fa216fdf575)
+
